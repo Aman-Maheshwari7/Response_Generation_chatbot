@@ -1,4 +1,4 @@
-
+import mysql.connector
 
 
 def response_generation("""input from backend"""):
@@ -8,6 +8,7 @@ def response_generation("""input from backend"""):
         host="localhost",
         user="username",
         passwd="password"
+        database="database-name"
         )
 
     
